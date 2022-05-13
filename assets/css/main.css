@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.25em + (1.5 - 1.25) * ((100vw - 300px) / (1600 - 300)));
+}
